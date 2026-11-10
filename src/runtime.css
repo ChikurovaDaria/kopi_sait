@@ -1,0 +1,10 @@
+/* Runtime-only state. The page geometry and design rules are in reference.css. */
+html {scroll-behavior:smooth;}
+#root {min-height:100%;}
+.tona-overlay {position:fixed;inset:0;z-index:2147483647;}
+.tona-overlay #popups-wrapper {position:fixed;inset:0;}
+[role="button"],button,a { -webkit-tap-highlight-color:transparent; }
+[role="button"] {cursor:pointer;}
+#comp-mo15zmef_img img {width:100%!important;height:100%!important;}
+#popups-wrapper .wixui-image picture {display:block;width:100%;height:100%;}
+#popups-wrapper .wixui-image img {width:100%!important;height:100%!important;object-fit:cover;}
